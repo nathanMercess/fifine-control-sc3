@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>sc3-hid-monitor</AssemblyName>
+    <RootNamespace>SC3.HidMonitor</RootNamespace>
+  </PropertyGroup>
+</Project>

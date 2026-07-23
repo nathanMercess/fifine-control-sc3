@@ -1,0 +1,43 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FifineControl.Core", "src\FifineControl.Core\FifineControl.Core.csproj", "{8B73DC43-7E74-4B80-9A62-A159264A439C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FifineControl.Cli", "src\FifineControl.Cli\FifineControl.Cli.csproj", "{296E3C06-1338-41A7-B73C-C615E815DDB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FifineControl.Core.Tests", "tests\FifineControl.Core.Tests\FifineControl.Core.Tests.csproj", "{01B9A1D3-D885-41B4-AB4B-B9A5D96FA331}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC3.HidMonitor", "tools\SC3.HidMonitor\SC3.HidMonitor.csproj", "{E2AD4333-A50F-489F-A16C-37F7984FC927}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FifineControl.App", "src\FifineControl.App\FifineControl.App.csproj", "{86AB93E8-FF86-4948-96A0-B45EC44CBBE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B73DC43-7E74-4B80-9A62-A159264A439C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B73DC43-7E74-4B80-9A62-A159264A439C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B73DC43-7E74-4B80-9A62-A159264A439C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B73DC43-7E74-4B80-9A62-A159264A439C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{296E3C06-1338-41A7-B73C-C615E815DDB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{296E3C06-1338-41A7-B73C-C615E815DDB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{296E3C06-1338-41A7-B73C-C615E815DDB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{296E3C06-1338-41A7-B73C-C615E815DDB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B9A1D3-D885-41B4-AB4B-B9A5D96FA331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B9A1D3-D885-41B4-AB4B-B9A5D96FA331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B9A1D3-D885-41B4-AB4B-B9A5D96FA331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B9A1D3-D885-41B4-AB4B-B9A5D96FA331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2AD4333-A50F-489F-A16C-37F7984FC927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2AD4333-A50F-489F-A16C-37F7984FC927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2AD4333-A50F-489F-A16C-37F7984FC927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2AD4333-A50F-489F-A16C-37F7984FC927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86AB93E8-FF86-4948-96A0-B45EC44CBBE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86AB93E8-FF86-4948-96A0-B45EC44CBBE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86AB93E8-FF86-4948-96A0-B45EC44CBBE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86AB93E8-FF86-4948-96A0-B45EC44CBBE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
